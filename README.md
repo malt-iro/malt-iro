@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+I am interested in the intersections of linguistics and AI, particularly in Natural Language Processing (NLP). Currently, I focus on using large language models (LLMs) for automatic text simplification and paraphrasing. My goal is to develop models that aid comprehension and make complex language accessible to everyone.
+
 <!--
 **malt-iro/malt-iro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
