@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iro-Georgia Malta | GitHub Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: #e8dff5; /* Soft Lilac */
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #5c4d8b; /* Deep Periwinkle */
+        }
+        .profile {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        a {
+            color: #5c4d8b; /* Deep Periwinkle */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Project Cards */
+        .project-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .card {
+            background-color: #ffffff;
+            width: 180px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        .visit-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #cabbdd; /* Light Deep Periwinkle */
+            color: #483a70;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <h1>Hello, I'm Iro-Georgia Malta 👋</h1>
+        <p>🌍 Linguist and NLP Researcher based in Germany, originally from Greece</p>
+    </div>
+
+    <!-- Full-width About Me Section as a Card -->
+    <section class="about-card">
+        <h2>About Me</h2>
+        <p>
+            I am interested in the intersections of linguistics and AI, particularly in Natural Language Processing (NLP). 
+            Currently, I focus on using large language models (LLMs) for automatic text simplification and paraphrasing.
+            My goal is to develop models that aid comprehension and make complex language accessible to everyone.
+        </p>
+        <h3>Interests</h3>
+        <p>💡 NLP, Computational Linguistics, Multilingual Processing, Data Science</p>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-cards">
+            <div class="card">
+                <a href="https://github.com/malt-iro/Emotions_classification_DeepLearning" target="_blank">Emotions Text Classification</a>
+                <p>A multi-class classification model to analyze emotions in social media.</p>
+                <a href="https://github.com/malt-iro/Emotions_classification_DeepLearning" target="_blank" class="visit-link">Visit Project</a>
+            </div>
+            <div class="card">
+                <a href="https://malt-iro.github.io/Data_Analysis_R/" target="_blank">Semantic Similarity Analysis</a>
+                <p>Investigated semantic similarity across languages using multilingual LLMs.</p>
+                <a href="https://malt-iro.github.io/Data_Analysis_R/" target="_blank" class="visit-link">Visit Project</a>
+            </div>
+            <div class="card">
+                <a href="https://github.com/malt-iro/Positive_Pointwise_Mutual_Information_Python/blob/main/iro.malta_PPMI.ipynb" target="_blank">PPMI Scoring</a>
+                <p>Computed and compared PPMI scores for linguistic collocates.</p>
+                <a href="https://github.com/malt-iro/Positive_Pointwise_Mutual_Information_Python/blob/main/iro.malta_PPMI.ipynb" target="_blank" class="visit-link">Visit Project</a>
+            </div>
+            <div class="card">
+                <a href="https://github.com/julianschelb/text-simplification-bot" target="_blank">Text Simplification Bot</a>
+                <p>A simple bot for simplifying texts using language models. Your small simplification partner.</p>
+                <a href="https://github.com/julianschelb/text-simplification-bot" target="_blank" class="visit-link">Visit Project</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>🌟 Check out my <a href="https://github.com/malt-iro" target="_blank">GitHub</a> for more projects and collaborations!</p>
+    </footer>
+</body>
+</html>
